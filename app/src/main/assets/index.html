@@ -30,14 +30,4 @@
         <script type="text/javascript" src="main/MainApp.js"></script>
     </head>
     <body id="body"></body>
-    <script type="text/javascript">
-        const main = new MainApp();
-        $(document).ready(async function(){
-            let ready = await main.initApp();
-            if(!ready){
-                $('.loading-gif').hide();
-                console.log('Unable to start app!');
-            }
-        });
-    </script>
 </html>

@@ -3,7 +3,7 @@
  * Any changes in this file affects all system
  */
 
-const __VERSION = '1.1.8';
+var __VERSION = 'xxx';
 const __CFG_PROD = {
     base_url: 'https://karaoke.lhost.com.br/',
     api_url: 'https://karaoke.lhost.com.br/api/v1/',

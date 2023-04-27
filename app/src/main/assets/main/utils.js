@@ -128,11 +128,13 @@ function compareVersion(version_compare)
         let version_int = parseInt(app_version[i]);
         let compare_int = parseInt(version_compare[i]);
 
-        //Compared version has difference of actual verison
+        //Compared version has difference of actual version
         if(version_int < compare_int){
             valid = false;
             return;
-        }
+        }else if(version_int > compare_int){
+             break;
+         }
     }
     return valid;
 }

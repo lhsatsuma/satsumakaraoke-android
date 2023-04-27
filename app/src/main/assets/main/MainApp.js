@@ -4,10 +4,10 @@ var __TAB_ACTIVE = 'musics';
  *
  * @returns {MainApp}
  */
-function getClassMain()
+function getClassMain(version_apk)
 {
     if(getClassGlobalMain === null){
-        getClassGlobalMain = new MainApp();
+        getClassGlobalMain = new MainApp(version_apk);
     }
     return getClassGlobalMain;
 }
@@ -23,6 +23,10 @@ class MainApp
     payloadStatusDate = null;
     payload = null;
     payloadDate = null;
+    constructor(version_apk)
+    {
+        __VERSION = version_apk;
+    }
     async initApp()
     {
         //Show loading div with 100%
