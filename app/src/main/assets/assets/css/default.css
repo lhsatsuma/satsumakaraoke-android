@@ -1,5 +1,6 @@
 body,
-.modal-content {
+.modal-content,
+input{
     background-color: #232323;
     color: #d0d0d0;
 }
@@ -86,13 +87,16 @@ button:focus{
     overflow-x: auto;
     overflow-y:hidden;
     flex-wrap: nowrap;
+    border: 0;
 }
+.nav-tabs{
+    border: 0;
+}
+
 .tabbable .nav-tabs .nav-link {
     white-space: nowrap;
 }
-.nav-tabs .nav-link{
-    border: 1px solid #232323;
-}
+
 
 select.form-control,select.form-control:focus{
     color: #d0d0d0;
@@ -101,4 +105,12 @@ select.form-control,select.form-control:focus{
 
 .form-control{
     background-color: #d0d0d0;
+}
+
+.tab-pane .container {
+    padding-bottom: 5rem;
+}
+.navbar-dark{
+    background-color: rgba(35,35,35);
+    border-top: 1px solid #dfdfdf;
 }

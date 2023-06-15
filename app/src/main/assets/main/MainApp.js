@@ -226,15 +226,6 @@ class MainApp
                     <p>Algumas funções estão desabilitadas.</p>
                 </div>
             </div>
-            <nav class="tabbable">
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <button class="btn-nav-tab nav-link btn-info active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa fa-music"></i></button>
-                    <button class="btn-nav-tab nav-link btn-info" id="nav-favorites-tab" data-toggle="tab" data-target="#nav-favorites" type="button" role="tab" aria-controls="nav-favorites" aria-selected="false"><i class="fa fa-star"></i></button>
-                    <button class="btn-nav-tab nav-link btn-info" id="nav-waitlist-tab" data-toggle="tab" data-target="#nav-waitlist" type="button" role="tab" aria-controls="nav-waitlist" aria-selected="false"><i class="fa fa-list"></i></button>
-                    <button class="btn-nav-tab nav-link btn-info" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa fa-user"></i></button>
-                    <button class="btn-nav-tab nav-link btn-info" id="nav-options-tab" data-toggle="tab" data-target="#nav-options" type="button" role="tab" aria-controls="nav-options" aria-selected="false"><i class="fa fa-cog"></i></button>
-                </div>
-            </nav>
             <div class="tab-content" id="nav-tabContent">
                 <div class="pt-3 tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"></div>
                 <div class="pt-3 tab-pane fade" id="nav-favorites" role="tabpanel" aria-labelledby="nav-favorites-tab"></div>
@@ -242,6 +233,15 @@ class MainApp
                 <div class="pt-3 tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
                 <div class="pt-3 tab-pane fade" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab"></div>
             </div>
+            <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark">
+                <div class="tabbable nav nav-tabs container-fluid justify-content-around" id="nav-tab" role="tablist">
+                    <button class="btn-nav-tab nav-link btn-info active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa fa-music"></i></button>
+                    <button class="btn-nav-tab nav-link btn-info" id="nav-favorites-tab" data-toggle="tab" data-target="#nav-favorites" type="button" role="tab" aria-controls="nav-favorites" aria-selected="false"><i class="fa fa-star"></i></button>
+                    <button class="btn-nav-tab nav-link btn-info" id="nav-waitlist-tab" data-toggle="tab" data-target="#nav-waitlist" type="button" role="tab" aria-controls="nav-waitlist" aria-selected="false"><i class="fa fa-list"></i></button>
+                    <button class="btn-nav-tab nav-link btn-info" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa fa-user"></i></button>
+                    <button class="btn-nav-tab nav-link btn-info" id="nav-options-tab" data-toggle="tab" data-target="#nav-options" type="button" role="tab" aria-controls="nav-options" aria-selected="false"><i class="fa fa-cog"></i></button>
+                </div>
+            </nav>
         </div>`);
 
         //User has access to remote control
